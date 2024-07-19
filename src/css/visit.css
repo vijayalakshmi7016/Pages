@@ -12,7 +12,7 @@ body{
     min-height: 100vh;
     align-items: center;
 
-    background: url("src/img/housemoon.jpeg") no-repeat;
+    background: url("../img/housemoon.jpeg") no-repeat;
     background-size: cover;
 }
 
