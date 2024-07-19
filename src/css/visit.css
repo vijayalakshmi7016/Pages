@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    align-items: center;
+
+    background: url(/Images/housemoon.jpeg) no-repeat;
+    background-size: cover;
+}
+
+.box{
+    width: 30%;
+    min-width: 400px;
+    outline: none;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: transparent;
+    backdrop-filter: blur(10px);
+
+    box-shadow: 0 0 10px 0 black;
+    /* color: white; */
+}
+
+.input-box{
+    margin: 10px 0;
+    position: relative;
+    height: 40px;
+}
+
+input{
+    position: absolute;
+    width: 100%;
+    outline: none;
+    border: none;
+    font-size: 20px;
+    padding: 0 20px;
+    border-radius: 10px;
+    height: 100%;
+    border: 2px solid rgb(163, 165, 40);
+    background: white;
+    transition: 0.1s ease;
+}
+
+input:focus{
+    color: blue;
+    outline: 2px solid blue;
+}
+
+.btn-box{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 20px;
+}
+
+.btn{
+    background: linear-gradient(to right,rgb(255, 220, 144), coral, pink );
+    outline: none;
+    padding: 5px 20px;
+    font-size: 20px;
+    border-radius: 20px;
+    border: none;
+    box-shadow: 0 0 10px coral;
+    color: azure;
+    transition: 0.3s ease;
+}
+
+.btn:hover{
+    transform: scale(1.2) ;
+}
+
+.line{
+    /* border: black; */ 
+    color: beige;
+    font-weight: bold;
+    text-shadow: -4px -4px 6px rgba(0, 0, 0, 1),
+                  4px 4px 6px rgba(0, 0, 0, 1);;
+}
+
+h1{
+    font-family: "Exo 2", sans-serif;
+    background: -webkit-linear-gradient(#eee, #1d1d1d);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
