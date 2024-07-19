@@ -1,3 +1,3 @@
 # Pages
 
-https://github.com/vijayalakshmi7016/Pages/blob/main/home.html
+click here(https://shorturl.at/5gYci)
