@@ -1,4 +1,4 @@
 # Pages
 
-[click here for portfolio](https://shorturl.at/5gYci)
+[click here for portfolio](https://viji-b.github.io/Pages/home.html)
 
